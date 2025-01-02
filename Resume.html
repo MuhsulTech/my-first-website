@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Resume</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="0_logo.png">
+  <link rel="stylesheet" href="style01.css">    
+</head>
+<body>
+<!-- Navigation containers --> 
+ <div class="nav-bar-container">
+ <i class="fa fa-bars " id="show"></i>     
+ <div class="nav-bar">
+ <span id="logo">
+ <h3>Muhsul Tech </h3>
+ <img src="0_logo.png" alt="logo">
+ </span>
+ 
+ <div class="content">
+<i class="fa fa-close" id="hide"></i>
+ <i class="fa fa-sun-o" id="sun" id="sun" style="display:none;"></i> 
+<i class="fa fa-moon-o" id="moon"></i>    
+ <ul>
+     <li><a href="homepage.html">Home</a></li>
+     <li><a href="Resume.html" id="active">Resume</a></li>
+     <li><a href="Services.html">Services</a></li>
+     <li><a href="contact.html">Contacts</a></li>
+
+</ul> 
+
+</div>
+  </div>
+    </div>
+
+<div class="overall-container">
+ <div class="side" id="sideCon">
+     <div class="env-container">
+         <div class="display-btn">   
+        <span><input type="radio" name="check" id="skill_1">
+     <label for="skill_1">About me and what I do</label></span>
+         <span><input type="radio" name="check" id="skill_2">
+     <label for="skill_2">Educational Background </label></span>
+         <span><input type="radio" name="check" id="skill_3">
+     <label for="skill_3">Working with tech</label></span>
+    
+ </div>
+         <div class="env-content" id="con_1">
+                <h2><i class="fa fa-user" id="i_con"></i>  About-Me</h2> 
+                <p id="env-p">My name is Muhammad Sulaiman I live in Katsina, Katsina state, I am a front end web developer focused on developing and designing responsive and interactive website with graphics design to improve user interfaces and experiences to ease the need of users. <br>In other hand, I use graphics technology to enhance and improve product and services for business and more</p>             
+         </div>
+         <div class="env-content" id="con_2"> 
+                         
+                <h2><i class="fa fa-graduation-cap" id="i_con"></i>  Educational Background </h2> 
+                <ul>
+                    <li>Primary level </li>
+                    <ul>
+                        <li>Dikko Memorial primary school, Katsina </li>
+                        <li>2009-2015</li>
+                    </ul>
+                </ul>
+                
+                <ul>
+                    <li>Secondary level </li>
+                    <ul>
+                        <li>Katsina Teachers College (KTC)</li>
+                        <li>Sciences</li>
+                        <li>2016-2021</li>
+                    </ul>
+                </ul>
+                
+                
+                <ul>
+                    <li>Tertiary level </li>
+                    <ul>
+                        <li>Hassan Usman Katsina polytechnic </li>
+                        <li>Computer Science</li>
+                        <li>2022-2025</li>
+                    </ul>
+                </ul>
+                
+             </div>         
+         <div class="env-content" id="con_3">
+             <div class="env-slide">
+                <h2><i class="fa fa-code" id="i_con"></i>  Web Tech</h2> 
+                <p id="env-p">Muhsul Tech is a computer technological hub that provide different services like Web Design, Graphics Design, and Digital Online Class.  </p><br>
+                <h2><i class="fa fa-paint-brush" id="i_con"></i>  Graphics Tech</h2>
+                <p id="env-p">Muhsul Tech is a computer technological hub that provide different services like Web Design, Graphics Design, and Digital Online Class.  </p><br>
+                <h2><i class="fa fa-laptop" id="i_con"></i>  Online Tech</h2>
+                <p id="env-p">Muhsul Tech is a computer technological hub that provide different services like Web Design, Graphics Design, and Digital Online Class.  </p>
+             </div>         
+        </div>   
+   </div>     
+</div><!-- end side --> 
+      <div class="main"  id="mainCon">
+      <br><br>        
+      <span id="me">My web Skills </span>    
+      <div class="slideshow-container">         
+      <div class="slide">            
+      <img src="7_html.png" style="width:130px; height:130px; "alt="img" id="con">
+      <br>
+      <span id="text">HTML</span>            
+      </div>
+        
+      <div class="slide">           
+      <img src="4_css.png" style="width:130px; height:130px; "alt="img" id="con">
+      <br>
+      <span id="text">CSS</span>           
+      </div>
+        
+      <div class="slide">                        
+      <img src="5_js.png" style="width:130px; height:130px; "alt="img" id="con">
+      <br>
+      <span id="text">Javascript</span>           
+      </div>
+        
+         
+      <button class="prev" onclick="plusSlides(-1)">&#8249</button>
+      <button class="next" onclick="plusSlides(1)">&#8250</button>
+               </div>          
+          </div>     
+     </div><!-- end main --> 
+</div><!-- end Overall container -->  
+     
+         
+        <div id="contact-me">
+        <p id="me">©copyright allrights reserves @MuhsulTech</p>
+        </div>      
+        
+        <div class="loader">
+        <p id="p">Muhsul <span id="gr">Tech</span></p>       
+        </div>
+        <script src="script.js"></script>
+        <script src="slide.js"></script>          
+</body>
+</html>
